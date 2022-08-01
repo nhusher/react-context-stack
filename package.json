@@ -1,6 +1,6 @@
 {
   "name": "react-context-stack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create recursive context stacks in React",
   "main": "dist/index.js",
   "scripts": {
