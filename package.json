@@ -1,0 +1,33 @@
+{
+  "name": "react-context-stack",
+  "version": "1.0.0",
+  "description": "Create recursive context stacks in React",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist/",
+    "test": "nyc mocha -r ts-node/register test/*.ts",
+
+    "prepublishOnly": "rm -rf dist && npm run build"
+  },
+  "keywords": [
+    "react",
+    "context"
+  ],
+  "author": "Nicholas Husher <nhusher@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/react": "^13.3.0",
+    "@types/mocha": "^9.1.1",
+    "@types/react": "^18.0.15",
+    "jsdom": "^20.0.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0",
+    "react": "18.2.0",
+    "ts-node": "^10.9.1"
+  },
+  "peerDependencies": {
+    "react": ">16.3"
+  }
+}
