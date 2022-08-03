@@ -1,8 +1,16 @@
 {
   "name": "react-context-stack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create recursive context stacks in React",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nhusher/react-context-stack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nhusher/react-context-stack/issues"
+  },
+  "homepage": "https://github.com/nhusher/react-context-stack",
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist/",
