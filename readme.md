@@ -1,7 +1,7 @@
 # `create-context-stack`
 
 A barebones tool for generating sparse document information from a React
-tree  using context.
+tree using context.
 
 Let's say we want to keep track of the section identifier of headings in
 a legal document. So the third paragraph under the second section under
